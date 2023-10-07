@@ -1,0 +1,33 @@
+{
+  "name": "mrfriend/btb-project",
+  "description": "description",
+  "minimum-stability": "dev",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "MrFRiend",
+      "email": "mrfriend.212@gmail.com"
+    }
+  ],
+  "require": {
+    "doctrine/orm": "2.*",
+    "doctrine/dbal": "3.*",
+    "symfony/yaml": "5.*",
+    "symfony/cache": "5.*",
+    "doctrine/annotations": "2.0.x-dev"
+  },
+  "require-dev": {
+    "symfony/var-dumper": "6.*",
+    "phpunit/phpunit": "10.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "App\\Tests\\": "tests/"
+    }
+  }
+}

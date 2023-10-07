@@ -1,0 +1,1 @@
+{"version":1,"defects":{"App\\Tests\\ProductsTest::duplicate":8,"App\\Tests\\ProductsTest::a_product_can_be_created":8},"times":{"App\\Tests\\ProductsTest::duplicate":0.017,"App\\Tests\\ProductsTest::a_product_can_be_created":0.014}}
